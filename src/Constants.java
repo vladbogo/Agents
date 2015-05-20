@@ -50,4 +50,5 @@ public class Constants {
 
 	// Crumbs
 	public static final int MAX_CRUMB_INTENSITY = MAX_OBJECTS_PER_PILE;
+	public static final int TEST = 0;
 }
