@@ -1,0 +1,15 @@
+diff a/src/Constants.java b/src/Constants.java	(rejected hunks)
+--- a/src/Constants.java
++++ b/src/Constants.java
+@@ -46,8 +46,10 @@ public class Constants {
+ 	public static final int OBJECT_POINTS = 100;
+ 	public static final int ACTION_POINTS = 1;
+ 
+-	public static final int NO_AGENTS = 5;
++	public static final int NO_AGENTS = 2000;
+ 
+ 	// Crumbs
+ 	public static final int MAX_CRUMB_INTENSITY = MAX_OBJECTS_PER_PILE;
++
++	public static final boolean VERBOSE = false;
+ }
