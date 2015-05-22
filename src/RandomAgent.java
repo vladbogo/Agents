@@ -25,9 +25,9 @@ public class RandomAgent extends Drawable {
 		super(m.basePosition, r, range, m.n, Constants.RANDOM_BASE_COLOR,
 				Constants.RANDOM_ARROW_COLOR, Constants.RANDOM_RANGE_COLOR);
 		// TODO random generate position.
-		int poz_i = rand.nextInt(Constants.WORLD_SIZE);
-		int poz_j = rand.nextInt(Constants.WORLD_SIZE);
-		this.agentPosition = new Pair(poz_i, poz_j);
+		//int poz_i = rand.nextInt(Constants.WORLD_SIZE);
+		//int poz_j = rand.nextInt(Constants.WORLD_SIZE);
+		this.agentPosition = m.basePosition;
 		this.m = m;
 		points = 0;
 		this.rand = rand;
