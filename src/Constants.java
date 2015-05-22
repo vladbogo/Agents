@@ -4,7 +4,7 @@ public class Constants {
 	// General constants.
 	public static final int CANVAS_SIZE = 600;
 	public static final String TITLE = "Agents";
-	public static final int SLEEP = 1;
+	public static final int SLEEP = 300;
 	public static final Color NOTVISIBLE_COLOR = Color.BLACK;
 
 	// World colors
@@ -54,4 +54,6 @@ public class Constants {
 	public static boolean VERBOSE = false;
 
 	public static boolean SET_CRUMBS = true;
+	
+	public static boolean SHOW_GRID = false;
 }
