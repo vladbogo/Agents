@@ -143,7 +143,8 @@ public class RandomAgent extends Drawable {
 
 			if (Constants.VERBOSE)
 				System.out.println("Go to base");
-			m.setCrumbs(agentPosition, no_crumbs);
+			if (Constants.SET_CRUMBS)
+				m.setCrumbs(agentPosition, no_crumbs);
 			no_crumbs--;
 			Pair newPoz = nextPositionToBase();
 			if (newPoz == null) {
